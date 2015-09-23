@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_item_press">#ffff0000</color>
+    <color name="color_item_normal">#44ff0000</color>
+    <color name="actionbar_text">#ffff2a0a</color>
+    <color name="background">#ffb3ff24</color>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+
+    app:columnCount="3"
+    app:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/key_title"
+        android:text=""
+        app:layout_columnSpan="1"
+        android:textSize="30sp"
+        />
+    <TextView
+        app:layout_column="0"
+        android:text="First Name:"
+        app:layout_gravity="right"
+        />
+
+    <EditText
+        android:ems="10"
+        app:layout_columnSpan="2" />
+
+    <TextView
+        android:text="Last Name:"
+
+        app:layout_column="0"
+        app:layout_gravity="right" />
+
+    <EditText
+        android:ems="10"
+        app:layout_columnSpan="2" />
+
+
+    <TextView
+        android:text="Visit Type:"
+
+        app:layout_column="0"
+        app:layout_gravity="right" />
+
+    <RadioGroup app:layout_columnSpan="2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="Ok"
+        app:layout_column="1" />
+
+    <Button
+        android:text="Cancel"
+        app:layout_column="2" />
+
+</android.support.v7.widget.GridLayout>
+

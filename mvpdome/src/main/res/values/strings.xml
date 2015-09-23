@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVPDome</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="clear">clear</string>
+    <string name="wearther">wearther</string>
+</resources>

@@ -46,9 +46,11 @@ public class MainActivity extends AppCompatActivity {
                     case 3:
                         Intent intent4 = new Intent(getApplicationContext(), com.example.zhy_baseadapterhelper.MainActivity.class);
                         startActivity(intent4);
+                        break;
                     case 4:
                         Intent intent5 = new Intent(getApplicationContext(), com.event_bus.EventBusMainActivity.class);
                         startActivity(intent5);
+                        break;
 
                 }
             }
